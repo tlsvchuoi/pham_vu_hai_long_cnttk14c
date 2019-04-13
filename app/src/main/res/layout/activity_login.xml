@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity">
+
+    <TextView
+        android:text="ĐĂNG NHẬP"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/male"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:text="UserName : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:gravity="center"
+            android:layout_weight="2"
+            android:id="@+id/editUserName"
+            android:textColorHint="#867E7E"
+            android:hint="ENTER USERNAME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:text="PassWord : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:id="@+id/editPassWord"
+            android:textColorHint="#867E7E"
+            android:hint="ENTER PASSWORD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:textColor="#f20"
+            android:gravity="center"
+            android:text="ĐĂNG NHẬP"
+            android:id="@+id/btnDangNhap"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:textColor="#f20"
+            android:gravity="center"
+            android:text="ĐĂNG KÍ"
+            android:id="@+id/btnDangKi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

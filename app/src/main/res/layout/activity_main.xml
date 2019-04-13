@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.longcntt.kukubi.Activity.MainActivity">
+
+    <Button
+        android:id="@+id/btnDe"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn1"
+        android:gravity="center"
+        android:text="@string/De"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnTb"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn2"
+        android:gravity="center"
+        android:text="@string/trungbinh"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnNhanh"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn3"
+        android:gravity="center"
+        android:text="@string/nhanh"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnThoat"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn4"
+        android:gravity="center"
+        android:text="Thoát"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

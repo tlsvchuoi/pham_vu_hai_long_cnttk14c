@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KuKuBi</string>
+    <string name="De">Normal</string>
+    <string name="time">0s</string>
+    <string name="point">0</string>
+    <string name="trungbinh">Medium</string>
+    <string name="nhanh">Hard</string>
+</resources>

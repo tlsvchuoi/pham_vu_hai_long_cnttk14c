@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.longcntt.kukubi.CheDo.ManChoi">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+
+        <EditText
+            android:id="@+id/tvTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/red"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="@string/time"
+            android:textColor="@color/white"
+            android:textIsSelectable="true"
+            android:textSize="50sp" />
+
+        <GridView
+            android:id="@+id/gvMau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:columnWidth="50dp" />
+
+        <EditText
+            android:id="@+id/tvPoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:inputType="text"
+            android:text="@string/point"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+    </LinearLayout>
+</LinearLayout>
